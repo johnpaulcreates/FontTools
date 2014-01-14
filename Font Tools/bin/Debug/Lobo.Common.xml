@@ -1,0 +1,294 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Lobo.Common
+</name>
+</assembly>
+<members>
+<member name="T:Lobo.Common.ListViewGroupSorter">
+	<summary>
+	</summary>
+	<remarks>
+ example: DirectCast(listView1, ListViewGroupSorter).SortGroups(True) 
+</remarks>
+</member><member name="M:Lobo.Common.FileSystem.FileCollection.#ctor(System.String)">
+	<summary>
+ Get all the files in a folder
+ </summary>
+	<param name="Folder"></param>
+	<remarks>ignores sub folders!</remarks>
+</member><member name="M:Lobo.Common.WinForms.ListViewHelper.SetGroupCollapse(System.Windows.Forms.ListView,System.Int32,Lobo.Common.WinForms.ListViewHelper.GroupState)">
+	<summary>
+ Set the collapse state for a single listviewgroup
+ </summary>
+	<param name="lvw"></param>
+	<param name="iGroup"></param>
+	<param name="State"></param>
+	<remarks></remarks>
+</member><member name="M:Lobo.Common.WinForms.ListViewHelper.SetGroupCollapse(System.Windows.Forms.ListView,System.String,Lobo.Common.WinForms.ListViewHelper.GroupState)">
+	<summary>
+ Set the collapse state for a single listviewgroup
+ </summary>
+	<param name="lvw"></param>
+	<param name="GroupName"></param>
+	<param name="State"></param>
+	<remarks></remarks>
+</member><member name="M:Lobo.Common.WinForms.ListViewHelper.SetGroupCollapseAll(System.Windows.Forms.ListView,Lobo.Common.WinForms.ListViewHelper.GroupState)">
+	<summary>
+ Set the collapse state for all listviewgroup
+ </summary>
+	<param name="lvw"></param>
+	<param name="State"></param>
+	<remarks></remarks>
+</member><member name="M:Lobo.Common.WinForms.ListViewHelper.GetGroup(System.Windows.Forms.ListView,System.String,System.Boolean)">
+	<summary>
+ Finds the specififed group.  Optionally creates the group
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Lobo.Common.WinForms.ListViewHelper.ExportListView(System.Windows.Forms.ListView,System.String,System.String)">
+	<summary>
+ Export the data in a listview as text
+ </summary>
+	<param name="lvw"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:Lobo.Common.WinForms.ListViewHelper">
+	<summary>
+ Make using listviews easier and adds features
+ </summary>
+	<remarks></remarks>
+</member><member name="T:Lobo.Common.Controls.ListViewHelper">
+	<summary>
+ Make using listviews easier and adds features
+ </summary>
+	<remarks>This class is out of date.  Please use Lobo.Common.WinForms.ListViewHelper</remarks>
+</member><member name="P:Lobo.Common.ctlCombinedProgress.Count">
+	<summary>
+ Total of number of items to prgress through
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:Lobo.Common.ctlCombinedProgress.Value">
+	<summary>
+ current number of processed items
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:Lobo.Common.ctlCombinedProgress.Text">
+	<summary>
+ Text to be display during updates
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Lobo.Common.Data.Database.Factory.Create(System.String)">
+	<summary>
+ Create an access database from the file path
+ </summary>
+	<param name="AccessFileLocation"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:Lobo.Common.Data.Database.Factory">
+	<summary>
+ Creates the correct type of database class
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Lobo.Common.Data.DataSet.FileName">
+	<summary>
+ Filename of any serialised data
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Lobo.Common.Data.DataSet.Load">
+	<summary>
+ Load dataset from current Serialised XML File
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Lobo.Common.Data.DataSet.Load(System.String)">
+	<summary>
+ Load Dataset from Serialised XML file
+ </summary>
+	<param name="Filename"></param>
+	<remarks></remarks>
+</member><member name="M:Lobo.Common.Data.DataSet.Save(System.String)">
+	<summary>
+ Serialise this Dataset to an XML file
+ </summary>
+	<param name="Filename"></param>
+	<remarks></remarks>
+</member><member name="M:Lobo.Common.Data.DataSet.CreateTable(System.String)">
+	<summary>
+ Add a new Table to this dataset
+ </summary>
+	<param name="TableName"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Lobo.Common.Internet.Download.GetFile(System.String,System.String)">
+	<summary>
+ Download a file over the internet
+ </summary>
+	<param name="URL"></param>
+	<param name="Filename"></param>
+	<returns>Local file location</returns>
+	<remarks></remarks>
+</member><member name="M:Lobo.Common.Data.Database.XML.GetDataAdapter(System.String,System.Data.Common.DbConnection)">
+	<summary>
+ Should not used for this database type
+ </summary>
+	<param name="Query"></param>
+	<param name="Connection"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Lobo.Common.Data.Database.XML.GetConnection">
+	<summary>
+ Should not be used for this database type
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:Lobo.Common.Data.Database.XML">
+	<summary>
+ Database class where data is stored in an XML file
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Lobo.Common.Data.DataTable.CreateColumn(System.String,Lobo.Common.Data.DataTable.eDataType,System.Boolean)">
+	<summary>
+ Add a new DataColumn to this DataTable
+ </summary>
+	<param name="ColumnName"></param>
+	<param name="DataType"></param>
+	<param name="AutoNumber"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Lobo.Common.Forms.FormHelper.SaveSettings(System.Windows.Forms.Form,System.Configuration.ApplicationSettingsBase)">
+	<summary>
+ Save the common settings for forms such as location, size etc
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Lobo.Common.Forms.FormHelper.LoadSettings(System.Windows.Forms.Form,System.Configuration.ApplicationSettingsBase)">
+	<summary>
+ Set the forms location and size from the project settings: Size, Location, WindowState
+ </summary>
+	<param name="aForm"></param>
+	<param name="Settings"></param>
+	<remarks></remarks>
+</member><member name="M:Lobo.Common.Internet.FTP.PutFile(System.String,System.String,System.String,System.String)">
+	<summary>
+	</summary>
+	<param name="SourceFile"></param>
+	<param name="Destination">Example: ftp://ftp.europainternet.co.uk/public_html/filename.php</param>
+	<param name="Username"></param>
+	<param name="Password"></param>
+	<remarks></remarks>
+</member><member name="M:Lobo.Common.Collections.NameValueCollectionHelper.Serialise(System.Collections.Specialized.NameValueCollection)">
+	<summary>
+ Convert a NameValueCollection object to XML
+ </summary>
+	<param name="Col"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Lobo.Common.Screens.Click.MouseClick(System.Drawing.Point)">
+	<summary>
+ Move the cursor to the specified position and perform a left click
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Lobo.Common.FormWithProgress.ProgressShow">
+	<summary>
+ Hide/Show all the progress controls
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:Lobo.Common.FormWithProgress.ProgressShowTimeRemaining">
+	<summary>
+ Show the estimated time remaining
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:Lobo.Common.FormWithProgress.ProgressShowBar">
+	<summary>
+ Hide/Show the progress bar control
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Lobo.Common.FormWithProgress.ProgressRefreshView">
+	<summary>
+ Update the visiblity of the progress crontrol
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Lobo.Common.FormWithProgress.ProgressUpdate(System.Int32)">
+	<summary>
+ Update the progress controls
+ </summary>
+	<param name="CurrentProgress"></param>
+	<remarks></remarks>
+</member><member name="M:Lobo.Common.FormWithProgress.ProgressStart(System.Int32,System.String,System.Boolean)">
+	<summary>
+ Reset the progress systems variables
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Lobo.Common.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Lobo.Common.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Lobo.Common.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:Lobo.Common.Helper.ShowForm(System.Windows.Forms.Form,System.String)">
+	<summary>
+ Show a form, allowing for multiple displays
+ </summary>
+	<param name="aForm"></param>
+	<param name="ScreenName">The .DeviceName of the screen</param>
+	<remarks></remarks>
+</member><member name="T:Lobo.Common.Classes.CRM.Contact">
+	<summary>
+ Basic Properties that can be used for a contact
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Lobo.Common.Internet.PageScraper.Fetch(System.String)">
+	<summary>
+ Fetch the webpage from the internet
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Lobo.Common.Data.DatasetHelper.LoadFromFile(System.String)">
+	<summary>
+ Load a serialised dataset
+ </summary>
+	<param name="Filename"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Lobo.Common.Data.DatasetHelper.SaveToFile(System.Data.DataSet,System.String)">
+	<summary>
+ Serialise a Dataset to an XML file
+ </summary>
+	<param name="DS"></param>
+	<param name="Filename"></param>
+	<remarks></remarks>
+</member><member name="M:Lobo.Common.Screens.Screens.GetScreen(System.Windows.Forms.Form)">
+	<summary>
+ Determine the screen that a form occupies
+ </summary>
+	<param name="aForm"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:Lobo.Common.Screens.Screens">
+	<summary>
+ helper code for dealing with windows.forms.screens
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

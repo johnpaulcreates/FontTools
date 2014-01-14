@@ -1,0 +1,61 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Lobo
+</name>
+</assembly>
+<members>
+<member name="M:Lobo.Forms.FormHelper.SaveSettings(System.Windows.Forms.Form,System.Object)">
+	<summary>
+ Save the common settings for forms such as location, size etc
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Lobo.FileSystem.FileCollection.#ctor(System.String)">
+	<summary>
+ Get all the files in a folder
+ </summary>
+	<param name="Folder"></param>
+	<remarks>ignores sub folders!</remarks>
+</member><member name="P:Lobo.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Lobo.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Lobo.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:Lobo.Helper.ShowForm(System.Windows.Forms.Form,System.String)">
+	<summary>
+ Show a form, allowing for multiple displays
+ </summary>
+	<param name="aForm"></param>
+	<param name="ScreenName">The .DeviceName of the screen</param>
+	<remarks></remarks>
+</member><member name="M:Lobo.Data.dataset.LoadFromFile(System.String)">
+	<summary>
+ Load a serialised dataset
+ </summary>
+	<param name="Filename"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Lobo.Screens.GetScreen(System.Windows.Forms.Form)">
+	<summary>
+ Determine the screen that a form occupies
+ </summary>
+	<param name="aForm"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:Lobo.Screens">
+	<summary>
+ helper code for dealing with windows.forms.screens
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

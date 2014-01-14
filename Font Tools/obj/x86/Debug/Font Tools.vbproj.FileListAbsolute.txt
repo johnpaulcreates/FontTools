@@ -1,0 +1,4 @@
+D:\Common\Dropbox\Projects\Font Tools\Font Tools\bin\Debug\Font Preview.exe.config
+D:\Common\Dropbox\Projects\Font Tools\Font Tools\obj\x86\Debug\Font Preview.exe
+D:\Common\Dropbox\Projects\Font Tools\Font Tools\obj\x86\Debug\Font Preview.xml
+D:\Common\Dropbox\Projects\Font Tools\Font Tools\obj\x86\Debug\Font Preview.pdb
