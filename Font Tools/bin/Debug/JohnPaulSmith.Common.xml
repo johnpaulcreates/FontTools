@@ -1,0 +1,142 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+JohnPaulSmith.Common
+</name>
+</assembly>
+<members>
+<member name="M:JohnPaulSmith.Common.WinForms.ListViewHelper.SetGroupCollapse(System.Windows.Forms.ListView,System.Int32,JohnPaulSmith.Common.WinForms.ListViewHelper.GroupState)">
+	<summary>
+ Set the collapse state for a single listviewgroup
+ </summary>
+	<param name="lvw"></param>
+	<param name="iGroup"></param>
+	<param name="State"></param>
+	<remarks></remarks>
+</member><member name="M:JohnPaulSmith.Common.WinForms.ListViewHelper.SetGroupCollapse(System.Windows.Forms.ListView,System.String,JohnPaulSmith.Common.WinForms.ListViewHelper.GroupState)">
+	<summary>
+ Set the collapse state for a single listviewgroup
+ </summary>
+	<param name="lvw"></param>
+	<param name="GroupName"></param>
+	<param name="State"></param>
+	<remarks></remarks>
+</member><member name="M:JohnPaulSmith.Common.WinForms.ListViewHelper.SetGroupCollapseAll(System.Windows.Forms.ListView,JohnPaulSmith.Common.WinForms.ListViewHelper.GroupState)">
+	<summary>
+ Set the collapse state for all listviewgroup
+ </summary>
+	<param name="lvw"></param>
+	<param name="State"></param>
+	<remarks></remarks>
+</member><member name="M:JohnPaulSmith.Common.WinForms.ListViewHelper.GetGroup(System.Windows.Forms.ListView,System.String,System.Boolean)">
+	<summary>
+ Finds the specififed group.  Optionally creates the group
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:JohnPaulSmith.Common.WinForms.ListViewHelper.ExportListView(System.Windows.Forms.ListView,System.String,System.String)">
+	<summary>
+ Export the data in a listview as text
+ </summary>
+	<param name="lvw"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:JohnPaulSmith.Common.WinForms.ListViewHelper">
+	<summary>
+ Make using listviews easier and adds features
+ </summary>
+	<remarks></remarks>
+</member><member name="T:JohnPaulSmith.Common.WinForms.ListViewGroupSorter">
+	<summary>
+	</summary>
+	<remarks>
+ example: DirectCast(listView1, ListViewGroupSorter).SortGroups(True) 
+</remarks>
+</member><member name="M:JohnPaulSmith.Common.WinForms.FormHelper.SaveSettings(System.Windows.Forms.Form,System.Configuration.ApplicationSettingsBase)">
+	<summary>
+ Save the common settings for forms such as location, size etc
+ </summary>
+	<remarks></remarks>
+</member><member name="M:JohnPaulSmith.Common.WinForms.FormHelper.LoadSettings(System.Windows.Forms.Form,System.Configuration.ApplicationSettingsBase)">
+	<summary>
+ Set the forms location and size from the project settings: Size, Location, WindowState
+ </summary>
+	<param name="aForm"></param>
+	<param name="Settings"></param>
+	<remarks></remarks>
+</member><member name="M:JohnPaulSmith.Common.Data.DataTable.CreateColumn(System.String,JohnPaulSmith.Common.Data.DataTable.eDataType,System.Boolean)">
+	<summary>
+ Add a new DataColumn to this DataTable
+ </summary>
+	<param name="ColumnName"></param>
+	<param name="DataType"></param>
+	<param name="AutoNumber"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:JohnPaulSmith.Common.Data.DataSet.FileName">
+	<summary>
+ Filename of any serialised data
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:JohnPaulSmith.Common.Data.DataSet.Load">
+	<summary>
+ Load dataset from current Serialised XML File
+ </summary>
+	<remarks></remarks>
+</member><member name="M:JohnPaulSmith.Common.Data.DataSet.Load(System.String)">
+	<summary>
+ Load Dataset from Serialised XML file
+ </summary>
+	<param name="Filename"></param>
+	<remarks></remarks>
+</member><member name="M:JohnPaulSmith.Common.Data.DataSet.Save(System.String)">
+	<summary>
+ Serialise this Dataset to an XML file
+ </summary>
+	<param name="Filename"></param>
+	<remarks></remarks>
+</member><member name="M:JohnPaulSmith.Common.Data.DataSet.CreateTable(System.String)">
+	<summary>
+ Add a new Table to this dataset
+ </summary>
+	<param name="TableName"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:JohnPaulSmith.Common.Data.Database.XML.GetDataAdapter(System.String,System.Data.Common.DbConnection)">
+	<summary>
+ Should not used for this database type
+ </summary>
+	<param name="Query"></param>
+	<param name="Connection"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:JohnPaulSmith.Common.Data.Database.XML.GetConnection">
+	<summary>
+ Should not be used for this database type
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:JohnPaulSmith.Common.Data.Database.XML">
+	<summary>
+ Database class where data is stored in an XML file
+ </summary>
+	<remarks></remarks>
+</member><member name="P:JohnPaulSmith.Common.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:JohnPaulSmith.Common.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:JohnPaulSmith.Common.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

@@ -2,3 +2,21 @@ D:\Common\Dropbox\Projects\Font Tools\Font Tools\bin\Debug\Font Preview.exe.conf
 D:\Common\Dropbox\Projects\Font Tools\Font Tools\obj\x86\Debug\Font Preview.exe
 D:\Common\Dropbox\Projects\Font Tools\Font Tools\obj\x86\Debug\Font Preview.xml
 D:\Common\Dropbox\Projects\Font Tools\Font Tools\obj\x86\Debug\Font Preview.pdb
+D:\Common\Dropbox\Projects\FontTools\Font Tools\obj\x86\Debug\Font_Preview.frmFonts.resources
+D:\Common\Dropbox\Projects\FontTools\Font Tools\obj\x86\Debug\Font_Preview.Resources.resources
+D:\Common\Dropbox\Projects\FontTools\Font Tools\obj\x86\Debug\Font Tools.vbproj.GenerateResource.Cache
+D:\Common\Dropbox\Projects\FontTools\Font Tools\bin\Debug\Font Preview.exe.config
+D:\Common\Dropbox\Projects\FontTools\Font Tools\bin\Debug\Font Preview.exe.manifest
+D:\Common\Dropbox\Projects\FontTools\Font Tools\bin\Debug\Font Preview.application
+D:\Common\Dropbox\Projects\FontTools\Font Tools\bin\Debug\Font Preview.exe
+D:\Common\Dropbox\Projects\FontTools\Font Tools\bin\Debug\Font Preview.pdb
+D:\Common\Dropbox\Projects\FontTools\Font Tools\bin\Debug\Font Preview.xml
+D:\Common\Dropbox\Projects\FontTools\Font Tools\bin\Debug\JohnPaulSmith.Common.dll
+D:\Common\Dropbox\Projects\FontTools\Font Tools\bin\Debug\JohnPaulSmith.Common.pdb
+D:\Common\Dropbox\Projects\FontTools\Font Tools\bin\Debug\JohnPaulSmith.Common.xml
+D:\Common\Dropbox\Projects\FontTools\Font Tools\obj\x86\Debug\Font Tools.vbprojResolveAssemblyReference.cache
+D:\Common\Dropbox\Projects\FontTools\Font Tools\obj\x86\Debug\Font Preview.exe.manifest
+D:\Common\Dropbox\Projects\FontTools\Font Tools\obj\x86\Debug\Font Preview.application
+D:\Common\Dropbox\Projects\FontTools\Font Tools\obj\x86\Debug\Font Preview.exe
+D:\Common\Dropbox\Projects\FontTools\Font Tools\obj\x86\Debug\Font Preview.xml
+D:\Common\Dropbox\Projects\FontTools\Font Tools\obj\x86\Debug\Font Preview.pdb

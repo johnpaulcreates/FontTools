@@ -1,4 +1,4 @@
-﻿Imports Lobo.Common.Data
+﻿Imports johnpaulsmith.Common.Data
 
 Public Class frmFonts
 
@@ -13,7 +13,7 @@ Public Class frmFonts
 
     Private Sub frmFonts_FormClosing(ByVal sender As Object, ByVal e As System.Windows.Forms.FormClosingEventArgs) Handles Me.FormClosing
 
-        Lobo.Common.Forms.FormHelper.SaveSettings(Me, My.Settings)
+        JohnPaulSmith.Common.WinForms.FormHelper.SaveSettings(Me, My.Settings)
 
         SaveDatabase()
 
@@ -27,7 +27,7 @@ Public Class frmFonts
 
         Me.Cursor = Cursors.WaitCursor
 
-        Lobo.Common.Forms.FormHelper.LoadSettings(Me, My.Settings)
+        JohnPaulSmith.Common.WinForms.FormHelper.LoadSettings(Me, My.Settings)
 
         UpdateStatus("Loading Database...")
 
@@ -109,7 +109,7 @@ Public Class frmFonts
     End Sub
     Private Function CreateGroup(ByVal GroupName As String) As ListViewGroup
 
-        Dim ThisGroup As ListViewGroup = Lobo.Common.Controls.ListViewHelper.GetGroup(lvwFonts, GroupName)
+        Dim ThisGroup As ListViewGroup = JohnPaulSmith.Common.WinForms.ListViewHelper.GetGroup(lvwFonts, GroupName)
 
         'create a menu item for the group
         Dim mnuItem As New ToolStripMenuItem(GroupName, Nothing)
@@ -123,7 +123,7 @@ Public Class frmFonts
 
     Private Sub CreateDatabase()
 
-        DS = New Lobo.Common.Data.DataSet
+        DS = New JohnPaulSmith.Common.Data.DataSet
         Dim DT As DataTable = DS.CreateTable("FontGroups")
         DT.CreateColumn("ID", DataTable.eDataType.Integer, True)
         DT.CreateColumn("GroupName")

@@ -49,19 +49,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>HetktSws6KD0Lh9/hMRuTerOaf4=</dsig:DigestValue>
+        <dsig:DigestValue>1kVCa5XuovRPWLwnZNkWm8ByIAU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Lobo.Common.dll" size="118784">
-      <assemblyIdentity name="Lobo.Common" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="JohnPaulSmith.Common.dll" size="25600">
+      <assemblyIdentity name="JohnPaulSmith.Common" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>6kLB1eXxRTBXGCA8Fs8Tv4Qoc4M=</dsig:DigestValue>
+        <dsig:DigestValue>ESsJ78a6bXuLkt7M9VuZj9kxvXg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

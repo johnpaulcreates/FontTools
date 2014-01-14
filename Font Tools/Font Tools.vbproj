@@ -176,6 +176,12 @@
       <Install>true</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\JohnPaulSmith Common\JohnPaulSmithCommon\JohnPaulSmithCommon.vbproj">
+      <Project>{887D258B-C458-4E65-879D-33525CE9B8C4}</Project>
+      <Name>JohnPaulSmithCommon</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
