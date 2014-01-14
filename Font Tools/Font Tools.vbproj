@@ -8,9 +8,9 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{DD26757C-53B1-4E7C-BA3B-C275E52C22CA}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>Font_Preview.My.MyApplication</StartupObject>
-    <RootNamespace>Font_Preview</RootNamespace>
-    <AssemblyName>Font Preview</AssemblyName>
+    <StartupObject>JohnPaulSmith.FontTools.My.MyApplication</StartupObject>
+    <RootNamespace>JohnPaulSmith.FontTools</RootNamespace>
+    <AssemblyName>JohnPaulSmith.FontTools</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
@@ -43,7 +43,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>Font Preview.xml</DocumentationFile>
+    <DocumentationFile>JohnPaulSmith.FontTools.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
@@ -53,7 +53,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>Font Preview.xml</DocumentationFile>
+    <DocumentationFile>JohnPaulSmith.FontTools.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
@@ -83,6 +83,9 @@
   </PropertyGroup>
   <PropertyGroup>
     <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -144,6 +147,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <None Include="My Project\app.manifest" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -177,9 +181,9 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\JohnPaulSmith Common\JohnPaulSmithCommon\JohnPaulSmithCommon.vbproj">
+    <ProjectReference Include="..\..\CommonVB\CommonVB.vbproj">
       <Project>{887D258B-C458-4E65-879D-33525CE9B8C4}</Project>
-      <Name>JohnPaulSmithCommon</Name>
+      <Name>CommonVB</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
